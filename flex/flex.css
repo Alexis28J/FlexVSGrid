@@ -1,0 +1,24 @@
+*{
+    border: solid 1px red;
+    box-sizing: border-box;
+}
+
+
+html, body{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+header{
+    height: 300px;
+    display: flex;
+    /*  in questo modo possiamo utilizzare le proprietà flex nel titolo */
+}
